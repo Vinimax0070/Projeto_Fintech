@@ -1,0 +1,206 @@
+*{
+    margin: 1px;
+    padding: 2px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    background: rgb(16, 22, 34);
+
+}
+
+
+.subtitulo{
+    background-image: linear-gradient(to left,rgb(8, 27, 12),rgb(91, 114, 101),rgb(56, 51, 51));
+    background-size: 400% 100%;
+    animation: degrade 10s infinite alternate;
+}
+
+@keyframes degrade{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: -70px;
+}
+
+
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    text-shadow: 3px 3px 3px rgb(31, 10, 10);
+}
+
+.menu ul{
+    margin: 0px;
+    background-color:rgb(16, 22, 34) ;
+    list-style: none;
+}
+
+.menu ul li{   
+    display: inline;
+    color: white;
+}
+
+.menu ul li a{
+    padding: 5px;
+    display: inline-block;
+    color: greenyellow;
+    border: solid greenyellow;
+    border-radius: 10px;
+
+}
+
+.subtitulo{
+    color:rgb(255, 255, 255);
+    padding: 20px 0 0 300px;
+    border-radius: 800px;
+    border:solid 1px white;
+    
+}
+.subtitulo span{
+    color:greenyellow;
+}
+.celular{
+    padding: 30px 0 0 1200px;
+    height: 800px;
+}
+
+
+.text{
+    padding: 100px 0 0 1300px;
+}
+
+
+
+.title{
+    margin: 0.6rem 0;
+    color:rgb(84, 216, 95);
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 3px white;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    flex-wrap: wrap;
+}
+.input-box{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px white;
+    color: white;
+
+}
+.input box input:hover{
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible{
+    outline: 1px solid#6c63ff;
+}
+
+.input-group{
+    font-size:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px,5px,10p rgba(0,0,0, .212);
+    margin: -40px;
+    margin-top: 10px;
+}
+
+.form-image{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 30px 0 0 -150px;
+}
+.form-image img{
+    width: 30rem;
+}
+
+.form-image2 img{
+    width: 30rem;
+}
+
+.content-section{
+    background-color: rgb(41, 59, 97);
+    padding: 15px;
+    margin: 500px;
+    margin-top: 5%;
+    background-repeat: no-repeat;
+    background-size: 10px;   
+    width: 300px ;
+}
+
+.card{
+    background-color:rgb(2, 2, 2);
+}
+.copy{
+    color:white;
+
+}
+
+@media screen and (min-width:721px) and (max-width:1050px){
+    body{
+        display: block;
+    }
+}
+    
+.redes{
+    color: white;
+    padding-left:90%;
+    padding: auto;
+    font-size: 30px;
+}
+
+
+.card-group{
+    background-color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-height: 200px;
+}
+.card-title{
+    color:white;
+}
+
+.card-text{
+    color: white;
+}
+
+
+
+main{
+    min-height: 200px;
+}
+
+.form{
+    padding-left: 80px;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: auto;
+}
